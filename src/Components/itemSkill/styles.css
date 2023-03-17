@@ -1,0 +1,32 @@
+.containerItem{
+    background-color: #f6f7f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;   
+}
+.SkillImage{
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 1rem;
+}
+.List{
+    margin-top: 1rem;
+    width: 100%;
+
+}
+.CenterInfo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Infos{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+.EditIcon{
+    width: 2.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #ebe9e9;
+}
+.wrap-login {
+  width: 390px;
+  background-color: #2a889a;
+  overflow: hidden;
+  padding: 55px 55px 33px 55px;
+  border-radius: 1rem;
+}
+.login-form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-form-title {
+  display: block;
+  font-size: 30px;
+  color: azure;
+  line-height: 1.2;
+  text-align: center;
+  
+}
+.wrapLogin-input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+.input {
+  font-size: 15px;
+  color: rgb(3, 3, 3);
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  padding: 0 5px;
+  margin-top: 20px;
+}
+.input:focus {
+  outline: 0;
+}
+.container-login-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 13px;
+}
+.container-pass-btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.pass-image{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.login-form-btn {
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(23, 23, 23);
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #ebe9e9;
+  cursor: pointer;
+}
+.textLogin-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.txtLogin1 {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.5;
+  padding-right: 5px;
+}
+.txtLogin2 {
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+}
